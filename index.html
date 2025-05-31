@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeditateWithMe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="text-gradient text-gradient-variant-1">Meditate With Me</h1>
+      <div class="timer" id="timer">
+        <div class="timer-display" id="timer-display">
+          <div class="timer-thank-you" id="timer-thank-you">🙏🏽</div>
+          <div
+            class="timer-time text-gradient text-gradient-variant-2"
+            id="timer-time"
+          ></div>
+        </div>
+        <div class="timer-controls">
+          <button class="timer-button" id="timer-start">Begin</button>
+        </div>
+      </div>
+      <audio id="gong-audio" preload="auto  ">
+        <source src="./sounds/gong.mp3" type="audio/mpeg" />
+      </audio>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
